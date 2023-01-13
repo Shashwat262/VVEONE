@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********* BACKGROUND *********/
+
+.bg1{
+    background-color: #000000;
+    background-size: cover;
+    height: 520rem;
+    width: 100%;
+    
+}
+.BG{
+   
+    background: url("/LAYER2.png");
+    background-size: cover;
+    height: 290rem;
+    width: 100%;
+    
+}
+
+/************ HOME PAGE *************/
+
+.navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position:absolute;
+        top: 2%;
+        cursor: pointer;
+        right: 50%;
+}
+.nav-list{
+       width: 50%;
+       display: flex;
+       align-items: center;
+    }
+    .nav-list li{
+      list-style: none;
+      padding: 26px 30px;
+    }
+    .nav-list li a{
+        text-decoration: none;
+        color: rgb(241 226 226);
+        font-size: 1.6rem;
+        margin-right: 1rem;
+    }
+    .nav-list li a:hover{
+        color: rgb(190, 103, 147);
+    }
+    #search{
+        padding: 5px;
+        font-size: 17px;
+        border: 2px solid rgb(242, 230, 230);
+        border-radius: 4px;
+        margin-top: 2rem;
+        width: 22rem;
+        border-radius: 0.8rem;
+        background-color: transparent;
+        position: absolute;
+        top: -3px;
+        left: 110%;
+    }
+    #search:hover{
+        color: rgb(190, 103, 147);
+    }
+    .icon{
+        color:aliceblue;
+        margin-left: 1.2rem;
+        position:absolute;
+        top: 2%;
+        font-size: 1.5rem;
+        position: relative;
+        left:90%;
+    }
+    .icon :hover{
+        color: rgb(190, 103, 147);
+    }
+    
+    .text-box{
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        
+    }
+    .text-box h2{
+        font-size: 5.5rem;
+        margin: 0;
+        color: transparent;
+        -webkit-text-stroke: 0.7px #fff;
+        background: url("/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg");
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 20s linear infinite;
+    }
+    .text-box h3{
+        position: relative;
+        bottom: 0%;
+        left: 0%;
+        font-size: 2rem;
+        margin-top: 0.3rem;
+        color: transparent;
+        -webkit-text-stroke: 0.1px #fff;
+        background: url("/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg");
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 20s linear infinite;
+        font-family: 'Kanit', sans-serif;
+    } 
+    .btn {
+        position: absolute;
+        top: 85%;
+        left: 10%;
+        text-align: justify;
+        font-size:24px;
+        border: 1px solid rgb(245, 230, 230);
+        border-radius: 37px;
+        color: rgb(204, 238, 218);
+        padding: 4px 50px;
+        transition: width 3s;
+        text-decoration: none;
+    }
+    .btn :hover{
+        background-color: rgb(162, 103, 139);
+        color: rgb(168, 211, 174);
+        width:200px ;
+        height:50px;
+    }
+    .img1{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        width: 0px;
+        height: 0px;
+        z-index: 2;
+    }
+    .img1 img{
+        height: 35rem;
+        width: 35rem;
+    }
+    .box1
+{
+    display: flex;
+    justify-content: center;
+    border: 1px solid blueviolet;
+    box-shadow: 2px 2px 5px rgb(26, 26, 51);
+    position: absolute;
+    top: 170%;
+    margin-left: 5rem;
+    margin-right: 0;
+    border-radius: 1.5rem;
+    height: 25rem;
+    width: 88rem;
+    opacity: 0.9;
+    background: linear-gradient(to bottom, rgb(59, 4, 67),rgb(4, 12, 68));
+}
+.box
+{
+    height:20rem;
+    width: 20rem;
+    margin: 50px;
+    padding: 5px 20px;
+    /* border: 1px solid #fff; */
+    align-items: center;
+}
+.box .circle{
+    border: 4px solid rgb(228, 216, 216);
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    align-items: center;
+    position: relative;
+    top: 0.7rem;
+    left: 25%;
+    color: #fff;
+    font-size:5rem ;
+}
+.circle  .number{
+    position: relative;
+    top: 10%;
+    left:30%;
+}
+.box h2{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 15%;
+    left: -5%;
+    font-size: 1.5rem;
+    font-family: 'Kanit', sans-serif;
+}
+.box p{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 20%;
+    font-size:1.2rem ;
+    font-family: 'Playfair Display', serif;
+
+}
+
+/************** HEXAGONS **************/
+
+    .img2{
+        position: absolute;
+        top: 80%;
+        left: 0%;
+    }
+    .img3{
+        position: absolute;
+        top: 85%;
+        right: 0%;
+    }
+    .img4{
+        position: absolute;
+        top: 193%;
+        right: 0%;
+    }
+    .img5{
+        position: absolute;
+        top: 273%;
+        left: 0%; 
+    }
+    .img6{
+        position: absolute;
+        top: 540%;
+        left: 0%;
+    }
+    .img7{
+        position: absolute;
+        top: 613%;
+        right: 0%;
+    }
+    .img8{
+        position: absolute;
+        top: 765%;
+        left: 0%;
+    }
+    .img9{
+        position: absolute;
+        top: 415rem;
+        right: 0%;
+    }
+
+/*********** OUR SERVICES **************/
+
+.box2 h2{
+    text-align: center;
+    color: #fff;
+    font-size: 5.8rem;
+    position: absolute;
+    top: 260%;
+    left: 35%;
+    font-family: 'Kanit', sans-serif;
+}
+.box2 h3{
+    text-align: center;
+    color: #fff;
+    font-size: 2.7rem;
+    position: absolute;
+    position: absolute;
+    top: 278%;
+    left: 30%;
+    font-family: 'Kanit', sans-serif;
+}
+.box2 .grid
+{
+  display: grid;
+  grid-template-columns: repeat(3,0fr);
+  gap: 3.5rem;
+  position: absolute;
+  top: 295%;
+  left: 8%;
+  opacity: 0.9;
+}
+
+.box2 .flex{
+  display: flex;
+  flex-direction: column;
+  margin: 22px;
+  padding: 10px;
+  border: 2px solid rgb(142, 138, 138);
+  border-radius:2rem ;
+  height: 35rem;
+  width: 22rem;
+  background: linear-gradient(to bottom,rgb(12, 33, 74),rgb(12, 33, 74),rgb(12, 33, 74),rgb(88, 99, 181));
+  background-size: cover;
+  box-shadow: 2px 2px 8px rgb(31, 31, 31);
+  opacity: 0.9;
+  
+}
+.box2 .flex .circle{
+    border: 6px solid #fff;
+    border-radius: 50%;
+    height: 9rem;
+    width: 9rem;
+    align-items: center;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    
+}
+.box2 .flex h3
+{
+  text-align: center;
+  position: relative;
+  top: 30%;
+  left: 2%;
+  font-size: 1.5rem;
+  font-family: 'Kanit', sans-serif;
+}
+.box2 .flex p
+{
+  text-align: center;
+  position: relative;
+  top: 35%;
+  color: #dccccc;
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.box2 .flex .btn
+{
+  position: relative;
+  text-align: center;
+  top: 45%;
+  left: 27%;
+  color: rgb(205, 194, 194);
+  padding: 4px;
+  width: 130px;
+  border-radius:30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+
+}
+.box2.flex .btn a{
+  text-decoration: none;
+  padding:4px;
+  border-radius: 6px;
+  padding:4px ;
+  transition: none;
+  
+}
+.box2.flex .btn a:hover{
+  transition: none;
+  background-color: rgb(36, 100, 78);
+}
+.box3  p{
+    text-align: justify;
+    position: absolute;
+    top: 400%;
+    left: 10%;
+    right: 10%;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+
+}
+.box4 .grid
+{
+  display: grid;
+  grid-template-columns: repeat(3,0fr);
+  gap: 3.5rem;
+  position: absolute;
+  top: 420%;
+  left: 8%;
+  opacity: 0.9;
+}
+
+.box4 .flex{
+  display: flex;
+  flex-direction: column;
+  margin: 22px;
+  padding: 10px;
+  border: 2px solid rgb(142, 138, 138);
+  border-radius:2rem ;
+  height: 35rem;
+  width: 23rem;
+  background: linear-gradient(to bottom,rgb(12, 33, 74),rgb(12, 33, 74),rgb(12, 33, 74),rgb(88, 99, 181));
+  background-size: cover;
+  box-shadow: 2px 2px 8px rgb(31, 31, 31);
+  opacity: 0.9;
+  
+}
+.box4 .flex .circle{
+    border: 6px solid #fff;
+    border-radius: 50%;
+    height: 9rem;
+    width: 9rem;
+    align-items: center;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    
+}
+.box4 .flex h3
+{
+  text-align: center;
+  position: relative;
+  top: 30%;
+  left: 2%;
+  font-size: 1.5rem;
+  color: #dccccc;
+  font-family: 'Kanit', sans-serif;
+}
+.box4 .flex p
+{
+  text-align: center;
+  position: relative;
+  top: 35%;
+  color: #dccccc;
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.box4 .flex .btn
+{
+  position: relative;
+  text-align: center;
+  top: 45%;
+  left: 27%;
+  color: rgb(205, 194, 194);
+  padding: 4px;
+  width: 130px;
+  border-radius:30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+
+}
+.box4 .flex .btn a{
+  text-decoration: none;
+  padding:4px;
+  border-radius: 6px;
+  padding:4px ;
+  transition: none;
+  
+}
+.box4 .flex .btn a:hover{
+  transition: none;
+  background-color: rgb(36, 100, 78);
+}
+
+/************* TOP IT COMPANY ***********/
+
+.box5 .left1{
+    float: left;
+    margin-left:13rem ;
+    margin-top: 15rem;
+}
+.box5 .left1 img{
+    opacity: 0.9;
+    
+}
+.box5 .right1{
+    height: 30rem;
+    width: 37rem;
+    float: right;
+    margin-right: 4rem;
+    margin-top: 15rem;
+}
+.box5 .right1 h2{
+    color: #fff;
+    font-size: 4.2rem;
+    opacity: 0.9;
+    font-family: 'Kanit', sans-serif;
+}
+.box5 .right1 p{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: 3.5rem;
+    opacity: 0.9;
+    font-family: 'Playfair Display', serif;
+
+}
+.box5 .right1 .btn{
+    position: relative;
+    top: 12%;
+    left: 8%;
+    text-decoration: none;
+    text-align: justify;
+    font-size:24px;
+    border: 2px solid rgb(245, 230, 230);
+    border-radius: 37px;
+    color: rgb(204, 238, 218);
+    padding: 4px 50px;
+    opacity: 0.9;
+}
+
+/*********** CONSULT YOUR REQUIREMENT ***********/
+
+.box6 h2{
+    color: #fff;
+    font-size: 6rem;
+    text-align: justify;
+    position: absolute;
+    top: 640%;
+    left: 30%;
+    padding-top: 1rem;
+    font-family: 'Kanit', sans-serif;
+}
+.box6 .list{
+    height: 30rem;
+    width:45rem;
+    position: absolute;
+    top: 715%;
+    left: 30%;
+}
+.box6 ul li{
+    color: #fff;
+    font-size: 2rem;
+}
+
+/************* ABOUT US *************/
+
+.box7 .left2 img{
+    height: 42rem;
+    width: 35rem;
+    position: absolute;
+    top: 825%;
+    left: 5%;
+}
+
+.box7 .right2{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 30rem;
+    width: 40rem;
+}
+.box7 .right2 h2{
+    position: relative;
+    top: 360%;
+    color: #dccccc;
+    font-size: 4.5rem;
+    left: 5%;
+    font-family: 'Kanit', sans-serif;
+}
+.box7 .right2 p{
+    position: relative;
+    top: 380%;
+    left: 5%;
+    color: #dccccc;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+
+}
+.box7  .right2 ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0px;
+    cursor: pointer;
+    color: #fff;
+}
+.box7 .right2 ul li .icon
+{
+    position: absolute;
+    top: 120rem;
+    left: 10%;
+    font-size: 1.5rem;
+    color:rgb(221, 221, 235) ;
+}
+.box7 .right2 ul li .text{
+    margin-left: 4rem;
+    font-size: 1.2rem;
+    position: relative;
+    top: 120rem;
+    left: 13%;
+}
+
+/********* FOOTER *********/
+
+ .footer{
+    width: 100%;
+    position: relative;
+    top: 63%;
+    height: 27rem;
+    display: flex;
+    background-color: rgb(107, 12, 158);
+}
+.footer .box h2{
+    text-align: justify;
+    margin-left: 5.5rem;
+    color: white;
+    font-size: 2.7rem;
+    position: relative;
+    left: 0%;
+    font-family: 'Kanit', sans-serif;
+}
+.footer .box p{
+    text-align: justify;
+    margin-left: 5.5rem;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+
+}
+.footer1{
+    background-color: rgb(105, 4, 118);
+    width: 100%;
+    height: 4rem;
+    position: relative;
+    top:60.5%;
+}
