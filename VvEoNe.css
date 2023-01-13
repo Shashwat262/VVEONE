@@ -447,29 +447,29 @@
 
 /************* TOP IT COMPANY ***********/
 
-.box5 .left1{
+.box5 .left{
     float: left;
     margin-left:13rem ;
     margin-top: 15rem;
 }
-.box5 .left1 img{
+.box5 .left img{
     opacity: 0.9;
     
 }
-.box5 .right1{
+.box5 .right{
     height: 30rem;
     width: 37rem;
     float: right;
     margin-right: 4rem;
     margin-top: 15rem;
 }
-.box5 .right1 h2{
+.box5 .right h2{
     color: #fff;
     font-size: 4.2rem;
     opacity: 0.9;
     font-family: 'Kanit', sans-serif;
 }
-.box5 .right1 p{
+.box5 .right p{
     color: #fff;
     font-size: 1.5rem;
     text-align: justify;
@@ -478,7 +478,7 @@
     font-family: 'Playfair Display', serif;
 
 }
-.box5 .right1 .btn{
+.box5 .right .btn{
     position: relative;
     top: 12%;
     left: 8%;
@@ -518,7 +518,7 @@
 
 /************* ABOUT US *************/
 
-.box7 .left2 img{
+.box7 .left img{
     height: 42rem;
     width: 35rem;
     position: absolute;
@@ -526,14 +526,14 @@
     left: 5%;
 }
 
-.box7 .right2{
+.box7 .right{
     position: relative;
     top: 50%;
     left: 50%;
     height: 30rem;
     width: 40rem;
 }
-.box7 .right2 h2{
+.box7 .right h2{
     position: relative;
     top: 360%;
     color: #dccccc;
@@ -541,7 +541,7 @@
     left: 5%;
     font-family: 'Kanit', sans-serif;
 }
-.box7 .right2 p{
+.box7 .right p{
     position: relative;
     top: 380%;
     left: 5%;
@@ -550,7 +550,7 @@
     font-family: 'Playfair Display', serif;
 
 }
-.box7  .right2 ul li
+.box7  .right ul li
 {
     position: relative;
     list-style: none;
@@ -558,7 +558,7 @@
     cursor: pointer;
     color: #fff;
 }
-.box7 .right2 ul li .icon
+.box7 .right ul li .icon
 {
     position: absolute;
     top: 120rem;
@@ -566,7 +566,7 @@
     font-size: 1.5rem;
     color:rgb(221, 221, 235) ;
 }
-.box7 .right2 ul li .text{
+.box7 .right ul li .text{
     margin-left: 4rem;
     font-size: 1.2rem;
     position: relative;
