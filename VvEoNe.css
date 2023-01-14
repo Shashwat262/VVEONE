@@ -15,7 +15,7 @@
 }
 .BG{
    
-    background: url("LAYER2.png");
+    background: url(/LAYER2.png);
     background-size: cover;
     height: 290rem;
     width: 100%;
@@ -91,7 +91,7 @@
         margin: 0;
         color: transparent;
         -webkit-text-stroke: 0.7px #fff;
-        background: url("vincent-burkhead-LhlxYMfnTF0-unsplash.jpg");
+        background: url("/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg");
         -webkit-background-clip: text;
         background-position: 0 0;
         animation: back 20s linear infinite;
@@ -104,7 +104,7 @@
         margin-top: 0.3rem;
         color: transparent;
         -webkit-text-stroke: 0.1px #fff;
-        background: url("vincent-burkhead-LhlxYMfnTF0-unsplash.jpg");
+        background: url("/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg");
         -webkit-background-clip: text;
         background-position: 0 0;
         animation: back 20s linear infinite;
@@ -527,15 +527,16 @@
 }
 
 .box7 .right{
-    position: relative;
-    top: 50%;
+    position: absolute;
+    top: 820%;
     left: 50%;
     height: 30rem;
     width: 40rem;
 }
 .box7 .right h2{
     position: relative;
-    top: 360%;
+    /* top: 360%; */
+    padding-bottom: 1rem;
     color: #dccccc;
     font-size: 4.5rem;
     left: 5%;
@@ -543,7 +544,7 @@
 }
 .box7 .right p{
     position: relative;
-    top: 380%;
+    /* top: 380%; */
     left: 5%;
     color: #dccccc;
     font-size: 1.5rem;
