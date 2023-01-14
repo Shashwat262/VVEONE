@@ -562,7 +562,7 @@
 .box7 .right ul li .icon
 {
     position: absolute;
-    top: 120rem;
+    top: 4rem;
     left: 10%;
     font-size: 1.5rem;
     color:rgb(221, 221, 235) ;
@@ -571,7 +571,7 @@
     margin-left: 4rem;
     font-size: 1.2rem;
     position: relative;
-    top: 120rem;
+    top: 4rem;
     left: 13%;
 }
 
